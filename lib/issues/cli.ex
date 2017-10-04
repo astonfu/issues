@@ -7,7 +7,7 @@ defmodule Issues.CLI do
   """
 
 
-  def run(argv) do
+  def main(argv) do
     argv
       |> parse_args
       |> process
